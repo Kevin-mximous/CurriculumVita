@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae Basico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currículum Vitae</h1>
+
+    <from action="/formulario" method="get">
+        <h4>Datos Personales:</h4>
+        <label for="Nombre completo">Nombre completo</label><br>
+        <input type="text" id="Nombre completo" name="Nombre completo" placeholder="Juan Escutia Estrada"/>
+        <br>
+        <label for="Numero de telefono">Numero de telefono</label><br>
+        <input type="tel" id="Numero de telefono" name="Numero de telefono" placeholder="312 139 8323" />
+        <br>
+        <label for="Correo">Correo</label><br>
+        <input type="email" id="Correo" name="Correo" placeholder="ejemplo@gmail.com" />
+
+        <h4>Declaración Personal</h4>
+        <label for="Declaración personal">Declaración Personal</label><br>
+        <textarea cols="100" rows="4" id="Declaración Personal" placeholder="Escribe un breve perfil que resuma tus habilidades y objetivos profesionales." name="Declaración Personal"></textarea>
+
+        <h4>Experiencia Laboral</h4>
+        <label for="Experiencia Laboral">Experiencia Laboral</label><br>
+        <textarea cols="100" rows="4" id="Experiencia Laboral" placeholder="Detallar trabajos anteriores, incluyendo responsabilidades y logros." name="Experiencia Laboral"></textarea>
+
+        <h4>Formación Academica</h4>
+        <label for="Instituciones">Instituciones</label><br>
+        <textarea cols="100" rows="4" id="Instituciones" placeholder="Incluir instituciones." name="Instituciones"></textarea>
+        <br>
+        <label for="Títulos">Títulos</label><br>
+        <textarea cols="100" rows="4" id="Títulos" placeholder="Incluir títulos." name="Títulos"></textarea>
+
+        <h4>Habilidades</h4>
+        <label for="Habilidades">Habilidades</label><br>
+        <textarea cols="100" rows="4" id="Habilidades" placeholder="Lista de competencias relevantes para el puesto deseado." name="Habilidades"></textarea>
+            
+        <h4>Logros Adicionales</h4>
+        <label for="Logros Adicionales">Logros Adicionales</label><br>
+        <textarea cols="100" rows="4" id="Logros Adicionales" placeholder="Premios, certificaciones o proyectos destacados que complementen tu perfil." name="Logros Adicionales"></textarea>
+        <button type="submit">enviar el Currículum Vitae</button>
+    </from>
+</body>
+</html>
