@@ -9,7 +9,7 @@
 <body>
     <h1>Currículum Vitae</h1>
 
-    <from action="/formulario" method="get">
+    <form action="/formulario" method="get">
         <h4>Datos Personales:</h4>
         <label for="Nombre completo">Nombre completo</label><br>
         <input type="text" id="Nombre completo" name="Nombre completo" placeholder="Juan Escutia Estrada"/>
@@ -42,7 +42,9 @@
         <h4>Logros Adicionales</h4>
         <label for="Logros Adicionales">Logros Adicionales</label><br>
         <textarea cols="100" rows="4" id="Logros Adicionales" placeholder="Premios, certificaciones o proyectos destacados que complementen tu perfil." name="Logros Adicionales"></textarea>
-        <button type="submit">enviar el Currículum Vitae</button>
-    </from>
+        <br>
+        <button type="reset">Restablecer la información</button> <br>
+        <button type="submit">Enviar el Currículum Vitae</button>
+    </form>
 </body>
 </html>
